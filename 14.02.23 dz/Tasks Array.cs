@@ -33,7 +33,7 @@ namespace _14._02._23_dz
                 }
                 return countUnique;
             }
-            int EqualToValue(int valueToCompare)
+            public int EqualToValue(int valueToCompare)
             {
                 int countUnique = 0;
                 foreach (int a in this.array)
